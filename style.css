@@ -1,0 +1,28 @@
+body {
+    background-color: lime;
+}
+h1 {
+    background-color: yellow;
+    color:blue;
+}
+#show_sketch {
+    float: right;
+}
+canvas {
+    border:5px solid black;
+    border-radius: 20px;
+    animation-name: Sketch;
+    animation-duration: 5s;
+    
+    animation-iteration-count: infinite;
+    
+}
+@keyframes Sketch {
+    from{box-shadow: 1px 1px 38px;}
+    to{box-shadow: 1px 1px 28px gold;}
+}
+p {
+    padding-top: 10px;
+    font-size: 25px;
+
+}
